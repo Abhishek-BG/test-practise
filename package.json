@@ -4,16 +4,22 @@
   "description": "this is for learning ",
   "main": "main.js",
   "scripts": {
+    "start":"node main.js",
+    "dev":"nodemon main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Abhishek-BG/test-practise.git"
   },
-  "author": "",
+  "author": "Abhishek",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Abhishek-BG/test-practise/issues"
   },
-  "homepage": "https://github.com/Abhishek-BG/test-practise#readme"
+  "homepage": "https://github.com/Abhishek-BG/test-practise#readme",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "nodemon": "^3.1.9"
+  }
 }
